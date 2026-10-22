@@ -1,0 +1,10 @@
+Invalid base fee: {'CourseID': 'C104', 'CourseName': 'Data Analytics', 'CourseType': 'Online', 'BaseFee': 'abc', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Rejected row: {'CourseID': 'C104', 'CourseName': 'Data Analytics', 'CourseType': 'Online', 'BaseFee': 'abc', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Invalid course type: {'CourseID': 'C106', 'CourseName': 'Web Development', 'CourseType': 'Hybrid', 'BaseFee': '25000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Rejected row: {'CourseID': 'C106', 'CourseName': 'Web Development', 'CourseType': 'Hybrid', 'BaseFee': '25000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Duplicate course ID: {'CourseID': 'C101', 'CourseName': 'Advanced Python', 'CourseType': 'Online', 'BaseFee': '12000', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Rejected row: {'CourseID': 'C101', 'CourseName': 'Advanced Python', 'CourseType': 'Online', 'BaseFee': '12000', 'OfferDiscount': '10', 'OfferEndDate': '2026-12-31'}
+Invalid base fee: {'CourseID': 'C107', 'CourseName': 'Java Programming', 'CourseType': 'Classroom', 'BaseFee': '-5000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Rejected row: {'CourseID': 'C107', 'CourseName': 'Java Programming', 'CourseType': 'Classroom', 'BaseFee': '-5000', 'OfferDiscount': '5', 'OfferEndDate': '2026-12-31'}
+Invalid offer date: {'CourseID': 'C108', 'CourseName': 'Web API Development', 'CourseType': 'Online', 'BaseFee': '25000', 'OfferDiscount': '10', 'OfferEndDate': 'invalid-date'}
+Rejected row: {'CourseID': 'C108', 'CourseName': 'Web API Development', 'CourseType': 'Online', 'BaseFee': '25000', 'OfferDiscount': '10', 'OfferEndDate': 'invalid-date'}
